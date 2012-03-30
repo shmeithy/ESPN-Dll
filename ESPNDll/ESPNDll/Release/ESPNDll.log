@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  ESPNDll.cpp
+ESPNDll.cpp(4): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vcclr.h(16): fatal error C1190: managed targeted code requires a '/clr' option

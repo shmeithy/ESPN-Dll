@@ -1,0 +1,19 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ESPNDll, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ESPN.Globals: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Net.HttpWebRequest myRequest : Public, Static
+    System.Net.WebResponse myResponse : Public, Static
+    System.IO.Stream ReceiveStream : Public, Static
+    System.Text.Encoding encode : Public, Static
+    System.IO.StreamReader readStream : Public, Static
